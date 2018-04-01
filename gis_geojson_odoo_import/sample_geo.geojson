@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::3857"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "SNO": "1",
+                "NAME": "Feature Name",
+                "VNAME": "Village Name",
+                "other_attribute": "value",
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9214025.137608,
+                            4041990.055720
+                        ],
+                        [
+                            9566246.963946,
+                            3949042.629325
+                        ],
+                        [
+                            9192011.273462,
+                            3848757.248215
+                        ],
+                        [
+                            9214025.137608,
+                            4041990.055720
+                        ],
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "SNO": "2",
+                "NAME": "Feature Name",
+                "VNAME": "Village Name",
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9715452.043159,
+                            4167958.278334
+                        ],
+                        [
+                            9837751.288415,
+                            3985732.402902
+                        ],
+                        [
+                            9708114.088444,
+                            3912352.855748
+                        ],
+                        [
+                            9509989.311128,
+                            3909906.870843
+                        ],
+                        [
+                            9715452.043159,
+                            4167958.278334
+                        ],
+                    ]
+                ]
+            }
+        },
+    ]
