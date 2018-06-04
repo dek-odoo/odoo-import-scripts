@@ -1,5 +1,6 @@
 
 The import scripts depend on OCA/geospatial repository (https://github.com/OCA/geospatial).
+The script reads each feature from the `sample_geo.geojson` file and creates a record in odoo using xmlrpclib.
 
 It imports the polygon/multipolygon data from geojson file.
 Geojson file can be exported from QGIS or any other GIS software you use.
